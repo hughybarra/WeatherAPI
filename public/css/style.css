@@ -1,0 +1,276 @@
+/**
+ * Global Reset of all HTML Elements
+ *
+ * Resetting all of our HTML Elements ensures a smoother
+ * visual transition between browsers. If you don't believe me,
+ * try temporarily commenting out this block of code, then go
+ * and look at Mozilla versus Safari, both good browsers with
+ * a good implementation of CSS. The thing is, all browser CSS
+ * defaults are different and at the end of the day if visual
+ * consistency is what we're shooting for, then we need to
+ * make sure we're resetting all spacing elements.
+ *
+ */
+html,
+body {
+  border: 0;
+  font-family: "Helvetica-Neue", "Helvetica", Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+div,
+span,
+object,
+iframe,
+img,
+table,
+caption,
+thead,
+tbody,
+tfoot,
+tr,
+tr,
+td,
+article,
+aside,
+canvas,
+details,
+figure,
+hgroup,
+menu,
+nav,
+footer,
+header,
+section,
+summary,
+mark,
+audio,
+video {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cit,
+code,
+del,
+dfn,
+em,
+ins,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+b,
+i,
+hr,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+legend,
+label {
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+canvas,
+figure,
+figure img,
+figcaption,
+hgroup,
+footer,
+header,
+nav,
+section,
+audio,
+video {
+  display: block;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+table caption,
+table th,
+table td {
+  text-align: left;
+  vertical-align: middle;
+}
+a img {
+  border: 0;
+}
+:focus {
+  outline: 0;
+}
+/* =============================================== */
+/* end reset */
+/* ================================================ */
+/* My vars */
+/* ================================================ */
+/* my Template/ Delete this when done */
+/* ================================================ */
+body {
+  background-color: #f2eeea;
+  font: normal small-caps normal 16px/1.4 "Helvetica-Neue";
+}
+nav {
+  background-color: #5f5e5d;
+  width: 100%;
+  height: 50px;
+}
+nav h1 {
+  color: #e87162;
+  font-size: 2em;
+  line-height: 50px;
+  margin-left: 10px;
+}
+/* End Navigation */
+/* ================================================ */
+#submit_zip {
+  cursor: pointer;
+  float: left;
+  width: 70px;
+  margin-top: 14px;
+  margin-left: 10px;
+  background-color: #e24a37;
+  color: #666666;
+  height: 25px;
+}
+#submit_zip span {
+  margin-left: 10px;
+  float: left;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 0px;
+  color: #fff;
+}
+.form_div {
+  float: left;
+}
+.search_section {
+  float: left;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+.template_div {
+  margin: 0 auto;
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  color: #666666;
+}
+.template_div label {
+  font-size: 1.5 em;
+}
+.template_div input {
+  height: 25px;
+}
+.template_div h2 {
+  color: #e87162;
+  font-size: 2em;
+  text-align: center;
+  witdh: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+/* javascript yweather div */
+/* ================================================ */
+.wTitle {
+  float: left;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 2em;
+  background-color: #e24a37;
+  color: #f2eeea;
+}
+.yweather_div {
+  width: 400px;
+  height: 200px;
+  float: left;
+  margin: 10px 20px;
+  background-color: #5f5e5d;
+  border-radius: 10px;
+  border: 3px solid #e87162;
+  -webkit-box-shadow: 0 8px 6px -6px #000000;
+  -moz-box-shadow: 0 8px 6px -6px #000000;
+  box-shadow: 0 8px 6px -6px #000000;
+}
+.yweather_div .wData {
+  margin-top: 30px;
+  float: left;
+  width: 180px;
+  margin-left: 10px;
+}
+.yweather_div .wIcon {
+  float: left;
+  height: 200px;
+}
+.yweather_div .wDate {
+  float: left;
+  margin-left: 10px;
+  color: #e87162;
+}
+.yweather_div .wDay {
+  float: left;
+  margin-left: 10px;
+  color: #e87162;
+}
+.yweather_div .label {
+  float: left;
+  font-size: 2em;
+  margin-left: 10px;
+  color: #e87162;
+}
+.yweather_div .wHigh {
+  float: left;
+  font-size: 2em;
+  margin-left: 10px;
+  color: #fff;
+}
+.yweather_div .wLow {
+  float: left;
+  font-size: 2em;
+  margin-left: 10px;
+  color: #27abe0;
+}
+.yweather_div .wText {
+  float: left;
+  clear: left;
+  margin-left: 10px;
+}
+.yweather_div .bot_container {
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 25px;
+  color: #f2eeea;
+  height: 30px;
+  width: 180px;
+  background-color: #e24a37;
+  border-radius: 10px;
+  border: 3px solid #e87162;
+}

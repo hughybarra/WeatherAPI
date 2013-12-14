@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Weather API </title>
+		<!-- my pre compiled less -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		
+		<nav>
+			<h1>Hugo's Workshop</h1>
+		</nav>
+
+		<section class="search_section">
+			<div class="template_div">
+				<h2>Weather API</h2>
+				<div class="form_div">
+					<label for="zip">Enter a Zip</label>
+					<input type="text" id="zip" name="zip" maxlength =" 5">
+				</div>
+
+				<div id="submit_zip">
+					<span>Submit</span>
+				</div>
+				
+			</div>
+		</section> <!-- close section --> 
+
+		<section>
+			<div class="weather_box"></div>			
+		</section> <!-- colose section --> 
+	</body> 
+
+	<!-- Jquery jquery-1.10.2.min -->
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+
+	<!-- Link  main.js -->
+	<script type="text/javascript" src="js/main.js"></script>
+</html>
